@@ -1,2 +1,22 @@
-# lxc-automation
-## Proyek ini dirancang untuk - Lab virtual - Simulasi infrastruktur server - Deployment server skala kecil - Pembelajaran administrasi sistem  ## Tujuan Proyek - Mengurangi waktu pembuatan server manual - Membuat banyak container dengan satu perintah - Menyediakan environment testing yang konsisten - Mempelajari otomatisasi infrastruktur
+# Cara Menjalankan
+## 1.Install LXD:
+```sh
+sudo apt install lxd -y
+lxd init
+chmod +x provision.sh
+./provision.sh
+
+```
+
+## Hasil
+Setelah script dijalankan:
+Container yang dibuat:
+web1
+web2
+web3
+web4
+web5
+Setiap container:
+- Sudah terinstall Nginx
+- Sudah terinstall SSH
+- Siap digunakan sebagai server
