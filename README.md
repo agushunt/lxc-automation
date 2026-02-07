@@ -13,11 +13,11 @@ chmod +x provision.sh
 ## Hasil
 Setelah script dijalankan:
 Container yang dibuat:
-web1
-web2
-web3
-web4
-web5
+- web1
+- web2
+- web3
+- web4
+- web5
 Setiap container:
 - Sudah terinstall Nginx
 - Sudah terinstall SSH
