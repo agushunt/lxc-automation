@@ -3,6 +3,8 @@
 ```sh
 sudo apt install lxd -y
 lxd init
+https://github.com/agushunt/lxc-automation.git
+cd lxc-automation
 chmod +x provision.sh
 ./provision.sh
 
